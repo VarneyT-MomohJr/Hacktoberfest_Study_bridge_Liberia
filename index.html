@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudyBridge Liberia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">StudyBridge <span>Liberia</span></div>
+    <p>Your notes. Your understanding. Your future.</p>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="tag">YOUR AI STUDY PARTNER</p>
+      <h1>Study smarter, not harder.</h1>
+      <p>Turn your school notes into practice questions and test what you know.</p>
+    </section>
+
+    <section class="study-card">
+      <label for="notes">Paste your study notes</label>
+      <textarea id="notes" maxlength="20000" placeholder="Paste your class notes here..."></textarea>
+
+      <label for="subject">Subject</label>
+      <input id="subject" maxlength="120" placeholder="e.g. Biology, History, Mathematics">
+
+      <button id="generate">Generate my quiz →</button>
+      <p id="status" role="status"></p>
+    </section>
+
+    <section id="quiz" class="study-card" hidden>
+      <h2>Your practice quiz</h2>
+      <div id="questions"></div>
+      <button id="check">Check my answers</button>
+      <div id="result" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>Built by students, for students. 🇱🇷</footer>
+  <script src="app.js"></script>
+</body>
+</html>

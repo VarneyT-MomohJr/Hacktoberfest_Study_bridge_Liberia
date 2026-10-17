@@ -1,0 +1,110 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fc;
+  color: #17233c;
+}
+
+header {
+  padding: 24px 8%;
+  background: #102b55;
+  color: white;
+}
+
+.brand {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.brand span {
+  color: #72dfc1;
+}
+
+header p {
+  color: #d4deef;
+}
+
+main {
+  max-width: 850px;
+  margin: 35px auto;
+  padding: 0 20px;
+}
+
+.hero {
+  margin-bottom: 25px;
+}
+
+.tag {
+  color: #087f68;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: clamp(32px, 6vw, 48px);
+  margin: 10px 0;
+}
+
+.study-card {
+  background: white;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 16px;
+  box-shadow: 0 8px 28px #17233c12;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 18px 0 8px;
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 9px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+button {
+  border: 0;
+  border-radius: 9px;
+  padding: 14px 20px;
+  margin-top: 18px;
+  background: #087f68;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #066653;
+}
+
+.option {
+  display: block;
+  margin: 10px 0;
+  padding: 12px;
+  background: #f3f6fc;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  color: #64748b;
+}
